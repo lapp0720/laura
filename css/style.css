@@ -1,0 +1,455 @@
+/*FUENTES*/
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Fugaz+One&family=Lobster&family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Fugaz+One&family=Lobster&family=Patua+One&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* VARIABLES*/
+
+:root {
+  --primaryColor: #bf3939;
+  --secondaryColor: #ffffff;
+  --titleSize: 40px;
+  --parrafoSize: 18px;
+  --fontFamily: "Raleway", sans-serif;
+}
+body {
+  font-family: var(--fontFamily);
+}
+
+/* HEADER*/
+header {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 20px;
+  background: url(../img/Group\ 1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header nav ul li a {
+  color: #ffffff !important;
+  font-size: 8px;
+  font: weight 200px;
+  transition: 0.4s;
+  margin-left: 20px;
+}
+
+header nav ul li a:hover {
+  color: #bf3939 !important;
+  text-decoration: underline;
+}
+
+header nav button {
+  background: transparent;
+  color: #bf3939;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 20px;
+  padding: 10px 12px;
+  border-color: #bf3939;
+  border-radius: 10px;
+}
+
+header nav button:hover {
+  text-decoration: underline;
+  color: #bf3939;
+}
+
+#hero .card-hero img {
+  width: 250px;
+}
+
+#hero .bg-imagen {
+  position: relative;
+}
+
+#hero img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 240px;
+}
+
+header #hero h1 {
+  color: #bf3939;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Patua One", cursive;
+}
+
+header #hero h3 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+header #hero a {
+  margin-left: 80px;
+  color: #ffffff;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+#scroll {
+  width: 60px;
+  height: 4px;
+  background: #656060;
+  margin-top: -11px;
+}
+
+/*MAIN*/
+
+main {
+  width: 100%;
+  position: relative;
+}
+
+/*PRESENTACION Y PERFIL*/
+
+#presentacion div .container {
+  margin-left: -20px;
+}
+
+#presentacion {
+  width: 100%;
+  position: relative;
+  background: #070920;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#presentacion img {
+  width: 230px;
+  height: 440px;
+  margin-top: 20px;
+  margin-left: 60px;
+  border-color: #bf3939;
+  margin-bottom: 20px;
+}
+
+#presentacion div .bg-presentacion h3 {
+  color: #bf3939;
+  margin-top: 20px;
+  font-size: small;
+  font-weight: 700;
+}
+
+#presentacion div .bg-presentacion h2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#presentacion div #detalle {
+  width: 40px;
+  height: 4px;
+  background: #bf3939;
+  margin-bottom: 20px;
+}
+
+#presentacion div .bg-presentacion p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+#presentacion div .bg-profesion h2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+#presentacion div #linea {
+  width: 70px;
+  height: 4px;
+  background: #bf3939;
+  margin-bottom: 20px;
+}
+
+#presentacion div .bg-profesion p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  display: block;
+  margin-left: 20px;
+}
+
+#parrafo {
+  margin-top: 30px;
+  border: 1px solid #bf3939;
+  width: 98%;
+}
+
+#presentacion div .bg-profesion button {
+  background: #bf3939;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-color: #bf3939;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+#presentacion div .bg-profesion button:hover {
+  text-decoration: underline;
+}
+
+/*ESTUDIOS*/
+
+#estudios {
+  width: 100%;
+  position: relative;
+  background: #0b1339;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#estudios h2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+}
+
+#estudios div #linea3 {
+  width: 65px;
+  height: 4px;
+  background: #bf3939;
+}
+
+#estudios .card-sena {
+  width: 180px;
+  margin: 0 auto;
+}
+
+#estudios img {
+  width: 180px;
+  height: 180px;
+  margin-top: 80px;
+}
+
+#estudios p {
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  max-width: 180px;
+  font-size: 15px;
+}
+
+#estudios .card-sena:hover img {
+  filter: grayscale(100%);
+}
+
+#estudios button {
+  background: #bf3939;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 70px;
+  border-color: #bf3939;
+  border-radius: 18px;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#estudios button:hover {
+  text-decoration: underline;
+}
+
+/*PORTAFOLIO*/
+
+#portafolio {
+  width: 100%;
+  position: relative;
+  background: #070920;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#portafolio h2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#portafolio div #linea4 {
+  width: 60px;
+  height: 4px;
+  background: #bf3939;
+  margin-bottom: 20px;
+}
+
+#portafolio .card-portafolio {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+#portafolio img {
+  padding-top: 20px;
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+/*HABILIDADES*/
+
+#habilidades {
+  width: 100%;
+  position: relative;
+  background: #0b1339;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#habilidades h3 {
+  color: #bf3939;
+  margin-top: 10px;
+  font-size: small;
+  font-weight: 700;
+}
+
+#habilidades div h2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+}
+
+#habilidades div #linea5 {
+  width: 75px;
+  height: 4px;
+  background: #bf3939;
+}
+
+#habilidades .card-habilidades img {
+  width: 180px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/*footer*/
+
+footer {
+  width: 100%;
+  position: relative;
+}
+
+#contacto {
+  width: 100%;
+  position: relative;
+  background: #0b1339;
+  padding-bottom: 50px;
+}
+
+#contacto h2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+#contacto div #linea6 {
+  width: 45px;
+  height: 4px;
+  background: #bf3939;
+  margin-left: 20px;
+}
+
+#contacto .bg-contacto {
+  border: 2px solid #bf3939;
+  width: 98%;
+  border-radius: 30px;
+  background: #1f2543;
+}
+
+#contacto p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #bf3939;
+}
+.redes {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.redes a {
+  margin-left: 20px;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  z-index: 999;
+}
+
+/*TABLET*/
+@media only screen and (min-width: 700px) and (max-width: 990px) {
+  #hero .card-hero img {
+    width: 250px;
+  }
+
+  #hero img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 320px;
+  }
+
+  #presentacion .cont-left img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+
+/*MOVILE*/
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  #hero .card-hero img {
+    width: 250px;
+  }
+
+  #hero img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  #presentacion .cont-left img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #presentacion div .container {
+    margin-left: 8px;
+  }
+
+  .redes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .redes a {
+    margin-left: 20px;
+  }
+}
